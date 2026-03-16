@@ -9,8 +9,11 @@
 
 ## 三、主要结果
 实验结果表明，经过人类反馈训练的语言模型在多个基准任务上表现优异。与传统的监督学习模型相比，基于人类反馈的模型在指令遵循、生成响应的相关性和多样性方面都有显著提升。研究还发现，模型在处理复杂指令时的灵活性和适应性明显增强，能够更好地理解上下文和用户意图。这些结果表明，人类反馈在提升语言模型性能方面发挥了关键作用。
-！[InstructGPT 训练流程简化版](https://i.imgur.com/8ZkFZ7L.png)
-！[InstructGPT vs GPT-3 实验结果](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*53m7X7Q009A6eQ9bH0pS7w.png)
+！<img width="710" height="365" alt="image" src="https://github.com/user-attachments/assets/ca82d76b-73ed-4caa-a892-b42c6812e6a6" />
+
+！<img width="735" height="549" alt="image" src="https://github.com/user-attachments/assets/9d546a52-9174-45cc-b18d-5e55ef9aa91b" />
+
 ## 四、个人小结
 本研究为语言模型的训练提供了一种创新的方法，强调了人类反馈的重要性。通过结合人类的直观判断和机器学习的优点，研究者成功地提高了模型的指令遵循能力和输出质量。这一方法不仅适用于语言模型的训练，也为其他AI系统的优化提供了有益的启示。未来，随着人类反馈机制的进一步完善和扩展，预计将会有更多高效、智能的语言处理系统问世。
-！[RLHF 训练环路](https://blog-1258031626.cos.ap-beijing.myqcloud.com/instructgpt_rlhf_cycle.png)
+！<img width="1371" height="633" alt="image" src="https://github.com/user-attachments/assets/babf615b-f66c-4bba-886c-ac5f5d0f85ca" />
+
