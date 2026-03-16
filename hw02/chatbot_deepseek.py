@@ -15,7 +15,7 @@ def call_deepseek(prompt, api_key):
     return response.json()["choices"][0]["message"]["content"]
 
 if __name__ == "__main__":
-    API_KEY = "你的DeepSeek API Key"  # 替换为你的真实Key
+    API_KEY = "sk-5ccef503b71c4d1cbf5f2cbbee692d2ay"  # 替换为你的真实Key
     user_input = input("请输入你的问题：")
     reply = call_deepseek(user_input, API_KEY)
     print("DeepSeek 回复：", reply)
