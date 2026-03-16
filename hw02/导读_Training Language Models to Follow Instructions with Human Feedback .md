@@ -5,12 +5,11 @@
 随着人工智能技术的快速发展，语言模型在自然语言处理（NLP）中的应用日益广泛。然而，传统的语言模型在执行复杂指令和满足用户期望方面仍存在局限性。为了解决这一问题，研究者们开始探索如何通过人类反馈来训练模型，使其更好地理解和执行指令。特别是在对话系统、智能助理等应用场景中，能够准确响应用户需求的模型显得尤为重要。
 ## 二、核心方法
 本研究提出了一种新的训练框架，结合了强化学习和人类反馈。具体而言，研究者首先利用无监督学习方法训练基础语言模型，然后通过收集人类反馈来微调模型。人类评估者根据模型生成的响应质量进行评分，这些评分随后用于训练一个奖励模型。最终，利用强化学习算法，模型通过最大化从奖励模型获得的反馈来进一步优化其性能。这样的双重机制使模型不仅能够理解指令，还能在生成的响应中融入人类的偏好。
-
-！[InstructGPT 三阶段训练流程](https://raw.githubusercontent.com/hao-wujing/csdn-blog-images/main/instructgpt/figure2.png)
+！[InstructGPT 三阶段训练流程](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*_ojHnCC5xU82604VQx0ZvA.png)
 ## 三、主要结果
 实验结果表明，经过人类反馈训练的语言模型在多个基准任务上表现优异。与传统的监督学习模型相比，基于人类反馈的模型在指令遵循、生成响应的相关性和多样性方面都有显著提升。研究还发现，模型在处理复杂指令时的灵活性和适应性明显增强，能够更好地理解上下文和用户意图。这些结果表明，人类反馈在提升语言模型性能方面发挥了关键作用。
 ！[InstructGPT 训练流程简化版](https://i.imgur.com/8ZkFZ7L.png)
-！[InstructGPT vs GPT-3 实验结果](https://raw.githubusercontent.com/hao-wujing/csdn-blog-images/main/instructgpt/figure1.png)
+！[InstructGPT vs GPT-3 实验结果](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*53m7X7Q009A6eQ9bH0pS7w.png)
 ## 四、个人小结
 本研究为语言模型的训练提供了一种创新的方法，强调了人类反馈的重要性。通过结合人类的直观判断和机器学习的优点，研究者成功地提高了模型的指令遵循能力和输出质量。这一方法不仅适用于语言模型的训练，也为其他AI系统的优化提供了有益的启示。未来，随着人类反馈机制的进一步完善和扩展，预计将会有更多高效、智能的语言处理系统问世。
 ！[RLHF 训练环路](https://blog-1258031626.cos.ap-beijing.myqcloud.com/instructgpt_rlhf_cycle.png)
