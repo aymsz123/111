@@ -1,0 +1,7 @@
+# requirements.txt
+streamlit
+langchain
+pypdf
+sentence-transformers
+chromadb
+openai
